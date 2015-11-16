@@ -16,9 +16,13 @@ group :development do
 end
 
 group :test, :development do
+  gem 'fuubar'
+  gem 'capybara'
   gem 'rspec-rails'
   gem 'launchy'
   gem 'pry'
+  gem 'better_errors'
+  gem 'binding_of_caller'
 end
 
 group :test do
