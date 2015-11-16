@@ -18,7 +18,6 @@
 
 <p><%= link_to "Add a task", new_list_task_path(@list) %></p>
 <p><%= link_to "Edit list", edit_list_path(@list) %></p>
-<p><%= link_to "Delete list", list_path(@list), :data => {:confirm => "You sure?", :method => "delete"} %></p>
-
+<p><%= link_to "Delete list", list_path(@list), :data => {:confirm => "Are you sure?", :method => "delete"} %></p>
 
 <p><%= link_to "Return to lists", lists_path %></p>
